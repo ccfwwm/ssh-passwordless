@@ -2,7 +2,7 @@
 name: ssh-passwordless
 display_name: SSH 免密登录配置
 display_name_en: SSH Passwordless Setup
-description: Use when a user wants passwordless SSH to a Linux server, or asks to stop typing the SSH password every time. Generates a dedicated Ed25519 key per host, installs it over SFTP after one masked password prompt, then writes a managed SSH alias so ssh ALIAS works forever. Triggers: SSH 免密, 免密登录, 不用再输密码, passwordless, ssh-keygen, authorized_keys, 配置 SSH 密钥, ssh config 别名.
+description: Use when a user wants passwordless SSH to a Linux server, or asks to stop typing the SSH password every time. Generates a dedicated Ed25519 key per host, installs it over SFTP after one masked password prompt, then writes a managed SSH alias so ssh ALIAS works forever. Triggers — SSH 免密, 免密登录, 不用再输密码, passwordless, ssh-keygen, authorized_keys, 配置 SSH 密钥, ssh config 别名.
 description_zh: 一次输入密码，之后 ssh 别名直接登录。自动生成每台服务器专用的 Ed25519 密钥、安装公钥并写好 SSH 别名，密码只走本地掩码弹窗，不保存、不进对话。
 description_en: Turn one password prompt into permanent key-based SSH. Creates a dedicated Ed25519 key per server, installs the public key, and writes a managed SSH alias; the password only travels through a local masked window and is never stored.
 category: development
